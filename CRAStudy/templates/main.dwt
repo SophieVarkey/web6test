@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>ORC CRA Workstudy Group</title>
+<!-- TemplateEndEditable -->
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<link href="http://www.research.ucf.edu/css/blackbarnav.css" type="text/css"  rel="stylesheet" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="blkbarnav">
+	<ul>
+    	<li class="pad"><a href="http://www.research.ucf.edu/">UCF Research &amp; Commercialization:</a>
+        </li>
+		<li><a href="http://www.research.ucf.edu/research.html" title="Research">Research</a>
+        </li>
+        <li class="separator">&nbsp;</li>
+        <li><a href="http://www.research.ucf.edu/commercialization.html" title="Commercialization">Commercialization</a>
+      </li>
+        <li class="separator">&nbsp;</li>
+        <li ><a href="http://www.research.ucf.edu/compliance.html" title="Ethics &amp; Compliance">Ethics &amp; Compliance</a>
+        </li>
+        <li class="separator">&nbsp;</li>
+        <li><a href="http://www.research.ucf.edu/centers.html" title="Centers &amp; Institutes">Centers &amp; Institutes</a>
+        </li>
+        <li class="separator">&nbsp;</li>
+        <li><a href="http://www.research.ucf.edu/funding_assistance.html" title="Proposal Funding &amp; Assistance">Proposal Funding &amp; Assistance</a>
+        </li>
+        <li class="separator">&nbsp;</li>
+        <li><a href="http://www.research.ucf.edu/foundation.html" title="Research Foundation">Research Foundation</a>
+        </li>
+	</ul>
+</div><!--end blkbarnav -->
+
+
+<div class="wrapper">
+
+<div class="container">
+
+<div class="outerHeader">
+	<div class="header"></div><!-- end .header -->
+</div><!-- end .outerHeader -->
+
+<div class="outerNavigation">
+	<div class="menu">
+  		<ul>
+    		<li><a href="../index.html">Home</a></li>
+        	<li><a href="../glossary.html">Resources</a></li>
+        	<li><a href="../schedule.html">Schedule</a></li>
+        	<li><a href="../contacts.html">Contacts</a></li>
+   	  	</ul>
+	</div><!-- end .navigation -->
+</div> <!-- end .outerNavigation --> 
+
+<div class="outerContent"><!-- TemplateBeginEditable name="content" -->
+  <div class="content">
+    <h1 align="center">&nbsp;</h1>
+    <p>&nbsp;</p>
+  </div>
+<!-- TemplateEndEditable --><!-- end .content -->
+
+</div><!-- end .outerContent -->
+
+</div><!-- end .container -->
+
+</div>
+
+<div class="outerFooter"></div><!--end .outerFooter -->
+
+<div class="copyright">
+	<p>Office of Research &amp; Commercialization | 12201 Research Parkway, Suite 501 | Orlando, FL 32826 | 407.823.3778 phone | 407.823.3299 fax</p>
+</div><!--end .copyright -->
+</body>
+</html>

@@ -1,0 +1,283 @@
+@charset "utf-8";
+body {
+	padding: 0;
+	color: #000;
+	margin: 0;
+	background-color: #746957;
+	font-family: Calibri;
+	font-size: 100%;
+	line-height: 1.4;
+}
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #F2F2F2;
+	background-image: url(../images/bg_wrapper.jpg);
+	background-repeat: repeat-x;
+}
+.outerHeader {
+	margin-right: auto;
+	margin-left: auto;
+	top: 50px;
+	background-image: url(../images/bg_outerHeader.jpg);
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 120px;
+}
+.outerContent {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/bg_outerContent.jpg);
+	background-repeat: repeat-y;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.innerContent {
+	width: 733px;
+	float: right;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0em;
+}
+
+
+.outerNavigation {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/bg_outerContent.jpg);
+	background-repeat: repeat-y;
+}
+
+
+
+
+.outerFooter {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	background-image: url(../images/bg_outerFooter.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+	background-position: bottom;
+	height: 65px;
+
+}
+.copyright {
+	color: #FFF;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.copyright p {
+	font-size: 75%;
+	color: #FFF;
+	padding-right: 35px;
+	padding-left: 35px;
+	text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	font-size: 100.01%;
+}
+h1 {
+	font-size: 125%;
+	color: #FFF;
+	text-align: center;
+	background-color: #746957;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 3px;
+}
+h2 {
+	font-size: 125%;
+	color: #F2F2F2;
+	text-align: center;
+	background-color: #746957;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+h3 {
+	font-size: 100%;
+	color: #F2F2F2;
+	text-align: center;
+	background-color: #47687B;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	color: #406C80;
+}
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 960px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-image: url(../images/bg_outerContent.jpg);
+	background-repeat: repeat-y;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+
+}
+.leftcol {
+}
+
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+.content {
+	width: 900px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-size: 90%;
+	font-family: Calibri;
+}
+
+.content p {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.content li {
+	list-style-position: outside;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+.content a {
+	color: #406C80;
+}
+
+.menu {
+	padding: 0px;
+	width: 960px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+.menu li {
+	color: #406C80;
+	font-weight: bolder;
+	font-family: Calibri;
+	list-style-type: none;
+	display: inline;
+	padding-right: 20px;
+	font-size: 16px;
+}
+.menu a {
+	color: #506D7B;
+	text-decoration: none;
+}
+
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#MenuBar1 {
+	float: left;
+}
+.top {
+	margin-right: auto;
+	margin-left: auto;
+	height: 40px;
+	text-align: center;
+}
+.rightcol {
+	width: 175px;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #376E83;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #376E83;
+	margin-bottom: 10px;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #376E83;
+	padding-bottom: 10px;
+}
+.rightcol h1 {
+	font-variant: small-caps;
+	font-size: 14px;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: .2em;
+}
+.rightcol ul {
+	padding-left: 20px;
+}
+.rightcol ul li {
+	line-height: 15px;
+	color: #3B6979;
+	font-weight: bold;
+	list-style-position: outside;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	width: 100%;
+	padding-left: 0px;
+	font-size: 12px;
+}
+.rightcol p {
+	font-size: 90%;
+	color: #456A84;
+	font-weight: bold;
+	line-height: 15px;
+}
