@@ -1,0 +1,972 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/news.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Florida Business Incubation Association</title>
+<link href="../CSSFiles/fbia.css" rel="stylesheet" type="text/css" />
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ 
+//-->
+</script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+//v1.7
+// Flash Player Version Detection
+// Detect Client Browser type
+// Copyright 2005-2008 Adobe Systems Incorporated.  All rights reserved.
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+function ControlVersion()
+{
+	var version;
+	var axo;
+	var e;
+	// NOTE : new ActiveXObject(strFoo) throws an exception if strFoo isn't in the registry
+	try {
+		// version will be set for 7.X or greater players
+		axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+		version = axo.GetVariable("$version");
+	} catch (e) {
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 6.X players only
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+			
+			// installed player is some revision of 6.0
+			// GetVariable("$version") crashes for versions 6.0.22 through 6.0.29,
+			// so we have to be careful. 
+			
+			// default to the first public version
+			version = "WIN 6,0,21,0";
+			// throws if AllowScripAccess does not exist (introduced in 6.0r47)		
+			axo.AllowScriptAccess = "always";
+			// safe to call for 6.0r47 or greater
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 4.X or 5.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 3.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = "WIN 3,0,18,0";
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 2.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+			version = "WIN 2,0,0,11";
+		} catch (e) {
+			version = -1;
+		}
+	}
+	
+	return version;
+}
+// JavaScript helper required to detect Flash Player PlugIn version information
+function GetSwfVer(){
+	// NS/Opera version >= 3 check for Flash plugin in plugin array
+	var flashVer = -1;
+	
+	if (navigator.plugins != null && navigator.plugins.length > 0) {
+		if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+			var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+			var descArray = flashDescription.split(" ");
+			var tempArrayMajor = descArray[2].split(".");			
+			var versionMajor = tempArrayMajor[0];
+			var versionMinor = tempArrayMajor[1];
+			var versionRevision = descArray[3];
+			if (versionRevision == "") {
+				versionRevision = descArray[4];
+			}
+			if (versionRevision[0] == "d") {
+				versionRevision = versionRevision.substring(1);
+			} else if (versionRevision[0] == "r") {
+				versionRevision = versionRevision.substring(1);
+				if (versionRevision.indexOf("d") > 0) {
+					versionRevision = versionRevision.substring(0, versionRevision.indexOf("d"));
+				}
+			}
+			var flashVer = versionMajor + "." + versionMinor + "." + versionRevision;
+		}
+	}
+	// MSN/WebTV 2.6 supports Flash 4
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1) flashVer = 4;
+	// WebTV 2.5 supports Flash 3
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1) flashVer = 3;
+	// older WebTV supports Flash 2
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 2;
+	else if ( isIE && isWin && !isOpera ) {
+		flashVer = ControlVersion();
+	}	
+	return flashVer;
+}
+// When called with reqMajorVer, reqMinorVer, reqRevision returns true if that version or greater is available
+function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)
+{
+	versionStr = GetSwfVer();
+	if (versionStr == -1 ) {
+		return false;
+	} else if (versionStr != 0) {
+		if(isIE && isWin && !isOpera) {
+			// Given "WIN 2,0,0,11"
+			tempArray         = versionStr.split(" "); 	// ["WIN", "2,0,0,11"]
+			tempString        = tempArray[1];			// "2,0,0,11"
+			versionArray      = tempString.split(",");	// ['2', '0', '0', '11']
+		} else {
+			versionArray      = versionStr.split(".");
+		}
+		var versionMajor      = versionArray[0];
+		var versionMinor      = versionArray[1];
+		var versionRevision   = versionArray[2];
+        	// is the major.revision >= requested major.revision AND the minor version >= requested minor
+		if (versionMajor > parseFloat(reqMajorVer)) {
+			return true;
+		} else if (versionMajor == parseFloat(reqMajorVer)) {
+			if (versionMinor > parseFloat(reqMinorVer))
+				return true;
+			else if (versionMinor == parseFloat(reqMinorVer)) {
+				if (versionRevision >= parseFloat(reqRevision))
+					return true;
+			}
+		}
+		return false;
+	}
+}
+function AC_AddExtension(src, ext)
+{
+  if (src.indexOf('?') != -1)
+    return src.replace(/\?/, ext+'?'); 
+  else
+    return src + ext;
+}
+function AC_Generateobj(objAttrs, params, embedAttrs) 
+{ 
+  var str = '';
+  if (isIE && isWin && !isOpera)
+  {
+    str += '<object ';
+    for (var i in objAttrs)
+    {
+      str += i + '="' + objAttrs[i] + '" ';
+    }
+    str += '>';
+    for (var i in params)
+    {
+      str += '<param name="' + i + '" value="' + params[i] + '" /> ';
+    }
+    str += '</object>';
+  }
+  else
+  {
+    str += '<embed ';
+    for (var i in embedAttrs)
+    {
+      str += i + '="' + embedAttrs[i] + '" ';
+    }
+    str += '> </embed>';
+  }
+  document.write(str);
+}
+function AC_FL_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".swf", "movie", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+     , "application/x-shockwave-flash"
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_SW_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".dcr", "src", "clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+     , null
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
+  var ret = new Object();
+  ret.embedAttrs = new Object();
+  ret.params = new Object();
+  ret.objAttrs = new Object();
+  for (var i=0; i < args.length; i=i+2){
+    var currArg = args[i].toLowerCase();    
+    switch (currArg){	
+      case "classid":
+        break;
+      case "pluginspage":
+        ret.embedAttrs[args[i]] = args[i+1];
+        break;
+      case "src":
+      case "movie":	
+        args[i+1] = AC_AddExtension(args[i+1], ext);
+        ret.embedAttrs["src"] = args[i+1];
+        ret.params[srcParamName] = args[i+1];
+        break;
+      case "onafterupdate":
+      case "onbeforeupdate":
+      case "onblur":
+      case "oncellchange":
+      case "onclick":
+      case "ondblclick":
+      case "ondrag":
+      case "ondragend":
+      case "ondragenter":
+      case "ondragleave":
+      case "ondragover":
+      case "ondrop":
+      case "onfinish":
+      case "onfocus":
+      case "onhelp":
+      case "onmousedown":
+      case "onmouseup":
+      case "onmouseover":
+      case "onmousemove":
+      case "onmouseout":
+      case "onkeypress":
+      case "onkeydown":
+      case "onkeyup":
+      case "onload":
+      case "onlosecapture":
+      case "onpropertychange":
+      case "onreadystatechange":
+      case "onrowsdelete":
+      case "onrowenter":
+      case "onrowexit":
+      case "onrowsinserted":
+      case "onstart":
+      case "onscroll":
+      case "onbeforeeditfocus":
+      case "onactivate":
+      case "onbeforedeactivate":
+      case "ondeactivate":
+      case "type":
+      case "codebase":
+      case "id":
+        ret.objAttrs[args[i]] = args[i+1];
+        break;
+      case "width":
+      case "height":
+      case "align":
+      case "vspace": 
+      case "hspace":
+      case "class":
+      case "title":
+      case "accesskey":
+      case "name":
+      case "tabindex":
+        ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+        break;
+      default:
+        ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+    }
+  }
+  ret.objAttrs["classid"] = classid;
+  if (mimeType) ret.embedAttrs["type"] = mimeType;
+  return ret;
+}
+// -->
+</script>
+
+<!--Google Analytics -->
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1606324-15']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+<!--/Google Analytics -->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="banner"></div>
+
+<div id="navigation">
+  <ul>
+    <li><a href="../index.htm">Home</a></li>
+    <li><a href="../About/about.htm">About</a></li>
+    <li  id="current"><a href="news.html">News</a></li>
+<!-- hide    <li><a href="../Members/members.htm">Members</a></li> -->
+    <li><a href="../Incubators/incubators.htm"> Incubators</a></li>
+    <li><a href="../Events/index.htm">Events</a></li>
+    <li><a href="../Resources/resources.htm">Resources</a></li>
+    <li><a href="../Join/join.htm">Join</a></li>
+    <li><a href="../Contact/contact.htm">Contact Us</a></li>
+  </ul>
+</div>
+<!--end navigation -->
+
+
+<!-- InstanceBeginEditable name="content" -->
+<div class="contenText">
+
+<img src="../images/PNG/news.png" width="700" height="60" alt="FBIA Incubators In The News" />
+
+<table width="97%" border="0" cellpadding="5" cellspacing="5">
+    <tr>
+      <td valign="top">March 10, 2017</td>
+      <td valign="top"><a href="http://theapopkavoice.com/ucf-incubator-creating-business-revenue-apopka/" target="new">UCF Incubator quietly creating business and  revenue in Apopka</a><a href="http://www.bizjournals.com/tampabay/news/2017/01/16/what-a-tampa-venture-capital-leader-sees-ahead-for.html" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">March 9,  2017</td>
+      <td valign="top"><a href="http://www.naplesnews.com/story/money/business/local/2017/03/09/french-startups-visit-collier-county-helping-hand/98803222/" target="new">Young French entrepreneurs visit Naples area to  pitch their products</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 14, 2017</td>
+      <td valign="top"><a href="http://www.floridatrend.com/article/21551/gator-entrepreneurs-return-to-gainesville%29" target="new">Gator entrepreneurs return to Gainesville</a></td>
+    </tr>
+    <tr>
+     <tr>
+      <td valign="top">February 12, 2017</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/energy/statewide-coalition-launch-florida-introduces-itself-today-in-tampa-to/2313208" target="new">Statewide coalition Launch Florida introduces  itself today in Tampa to help propel startup economy</a><a href="http://www.floridatrend.com/article/21551/gator-entrepreneurs-return-to-gainesville%29" target="new"></a></td>
+    </tr>
+     <tr>
+      <td valign="top">January 16, 2017</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/news/2017/01/16/what-a-tampa-venture-capital-leader-sees-ahead-for.html" target="new">What a Tampa venture capital leader sees ahead for Florida&rsquo;s startup sector</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 12, 2017</td>
+      <td valign="top"><a href="https://www.crowdfundinsider.com/2017/01/94660-fintech-incubator-csi-kick-start-startup/" target="new">Ready, Set, Disrupt! Fintech Startup Incubator CSI Kick Start Opens Funding Opportunities</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 12, 2017</td>
+      <td valign="top"><a href="http://www.orlandosentinel.com/business/os-business-support-programs-orlando-20170105-story.html" target="new">Divide between large companies, startups closing</a></td>
+    </tr>
+    <tr>
+     <tr>
+      <td valign="top">January 6, 2017</td>
+      <td valign="top"><a href="http://www.naplesnews.com/story/opinion/editorials/2017/01/05/editorial-progress-2017-toward-year-round-economy/96195296/" target="new">Progress in 2017 toward year-round economy</a></td>
+    </tr>
+      <td valign="top">January 5, 2017</td>
+      <td valign="top"><a href="http://theapopkachief.com/apopka-city-council-renews-agreement-with-the-ucf-business-incubator/" target="new">Apopka City Council renews agreement with the UCF Business Incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">December 14, 2016</td>
+      <td valign="top"><a href="http://floridapolitics.com/archives/228949-personnel-note-maria-sachs" target="new">Maria Sachs to lead Innovation Florida</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 19, 2016</td>
+      <td valign="top"><a href="http://www.newsherald.com/news/20161119/business-of-growing-business" target="new">The business of growing business</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 18, 2016</td>
+      <td valign="top"><a href="https://news.fiu.edu/2016/11/fiu-business-incubator-meets-the-community/106439" target="new">FIU business incubator meets the community</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 16, 2016</td>
+      <td valign="top"><a href="http://www.prnewswire.com/news-releases/ufsid-martin-biotechnology-institute-brings-in-10-new-resident-companies-in-six-months-300363805.html" target="new">UF/Sid Martin Biotechnology Institute Brings in 10 New Resident Companies in Six Months</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 6, 2016</td>
+      <td valign="top"><a href="http://www.miamiherald.com/news/local/education/article112960863.html#storylink=cpy" target="new">How South Florida universities are revving up to be engines of innovation</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 3, 2016</td>
+      <td valign="top"><a href="http://www.bizjournals.com/southflorida/news/2016/11/03/university-gifted-831k-to-launch-new-incubator.html" target="new">University gifted $831K to launch new incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 1, 2016</td>
+      <td valign="top"><a href="http://news.wfsu.org/post/local-business-incubator-hatching-more-just-jobs" target="new">Local Business Incubator Hatching More Than Just Jobs</a></a></a></td>
+    </tr>
+    <tr>
+      <td valign="top">October 30, 2016</td>
+      <td valign="top"><a href="http://www.usforacle.com/news/view.php/1025282/Student-Innovation-Incubator-seeks-to-in" target="new">Student Innovation Incubator seeks to inspire entrepreneurs</a></a></td>
+    </tr>
+    <tr>
+      <td valign="top">April  23, 2016</td>
+      <td valign="top"><a href="http://www.tbo.com/news/business/big-tech-dreams-get-a-boost-with-local-incubators-20160423/" target="new">Big tech dreams get a boost with local incubators</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 26, 2015</td>
+      <td valign="top"><a href="http://www.bradenton.com/2015/08/26/5958827_vern-buchanans-visit-boosts-station.html?rh=1" target="new">Vern Buchanan's visit  boosts Bradenton's Station 2 Innovation Center profile</a><a href="http://www.bizjournals.com/orlando/blog/2015/05/construction-on-5-major-projects-to-start-at-ucf.html" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 25, 2015</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/news/2015/08/25/orange-county-gives-100k-to-orlandos-startup-seed.html" target="new">Orange County gives $100K to Orlando's startup  seed fund</a><a href="http://www.bizjournals.com/orlando/blog/2015/05/construction-on-5-major-projects-to-start-at-ucf.html" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 1, 2015</td>
+      <td valign="top"><a href="../PDF/5-1 Smart Business Magazine - From bud to bloom.pdf" target="new">From bud to bloom</a><a href="http://www.bizjournals.com/orlando/blog/2015/05/construction-on-5-major-projects-to-start-at-ucf.html" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 28, 2015</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/blog/2015/05/construction-on-5-major-projects-to-start-at-ucf.html" target="new">Construction on 5 major projects to start at UCF</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 27, 2015</td>
+      <td valign="top"><a href="http://www.floridatrend.com/article/18540/ucf-business-incubation-program-receives-international-designation" target="new">UCF Business Incubation Program Receives International Designation</a></td>
+    </tr>
+   <tr>
+      <td valign="top">May 26, 2015</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/news/2015/05/26/despite-smaller-footprint-tampa-bay-wave-calls-new.html" target="new">Despite smaller footprint, Tampa Bay Wave calls new space an improvement</a><a href="http://www.orlandosentinel.com/business/os-ucf-rollins-construction-20150510-story.html" target="new"></a><a href="http://www.miamiherald.com/news/business/article19829034.html" target="new"></a><a href="http://www.ocala.com/article/20150422/ARTICLES/150429888" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 25, 2015</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/tampa-bay-wave-startup-center-relocating-from-rivergate-tower-to-nearby/2230987" target="new">Tampa Bay WaVE startup center relocating from Rivergate to Kennedy space</a><a href="http://www.miamiherald.com/news/business/article19829034.html" target="new"></a><a href="http://www.ocala.com/article/20150422/ARTICLES/150429888" target="new"></a></td>
+    </tr> 
+    <tr>
+      <td valign="top">May 17, 2015</td>
+      <td valign="top"><a href="http://www.orlandosentinel.com/business/os-ucf-rollins-construction-20150510-story.html" target="new">UCF plans tech complex; Rollins to get a pub</a><a href="http://www.miamiherald.com/news/business/article19829034.html" target="new"></a><a href="http://www.ocala.com/article/20150422/ARTICLES/150429888" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 13, 2015</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20150513/business/150519802" target="new">Incubator advisory board to meet</a><a href="http://www.miamiherald.com/news/business/article19829034.html" target="new"></a><a href="http://www.ocala.com/article/20150422/ARTICLES/150429888" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 8, 2015</td>
+      <td valign="top"><a href="http://www.gainesville.com/article/20150509/ARTICLES/150509658" target="new">Growth in biotech trade show mirrors growing industry</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 28, 2015</td>
+      <td valign="top"><a href="http://www.miamiherald.com/news/business/article19829034.html" target="new">Cane named South Florida Tech Entrepreneur of the Year</a><a href="http://www.ocala.com/article/20150422/ARTICLES/150429888" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 28, 2015</td>
+      <td valign="top"><a href="http://newsroom.fit.edu/2015/04/28/suntrust-foundation-donates-10k-to-florida-techs-bisk-college-of-business/" target="new">SunTrust Foundation Donates $10K to Florida Tech&rsquo;s Bisk College of  Business</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 26, 2015</td>
+      <td valign="top"><a href="http://www.ocala.com/article/20150426/ARTICLES/150429744" target="new">Create your own job: programs and resources that can aid success</a><a href="http://www.alligator.org/news/features/article_30eafea6-de70-11e4-9174-e371dc5f1649.html" target="new"></a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 23, 2015</td>
+      <td valign="top"><a href="http://www.digitaljournal.com/pr/2532441" target="new">NBIA Expands Executive Leadership Team</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 22, 2015</td>
+      <td valign="top"><a href="http://www.ocala.com/article/20150422/ARTICLES/150429888" target="new">Counseling, &lsquo;speed-dating&rsquo; style, to be available May 6</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 10, 2015</td>
+      <td valign="top"><a href="http://naplesherald.com/2015/04/10/collier-county-business-incubator-local-economy-continues-to-diversify/" target="new">Collier County Business Incubator: Local Economy Continues to Diversify</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 9, 2015</td>
+      <td valign="top"><a href="http://www.alligator.org/news/features/article_30eafea6-de70-11e4-9174-e371dc5f1649.html" target="new">Gainesville's entrepreneurs are slipping through its fingers</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 8, 2015</td>
+      <td valign="top"><a href="http://tbo.com/northwest-tampa/networking-group-strives-to-keep-it-local-20150408/" target="new">Networking group strives to Keep It Local</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 8, 2015</td>
+      <td valign="top"><a href="http://www.pressreleaserocket.net/stetson-university-takes-first-second-in-innovation-contest/137666/" target="new">Stetson University Takes First, Second in  Innovation Contest</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 7, 2015</td>
+      <td valign="top"><a href="http://www.tallahassee.com/story/money/2015/04/07/three-tallahassee-businesses-take-shot-financing-national-one-spark-festival/25427593/" target="new">Three Tallahassee businesses take shot at  financing at national One Spark Festival</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 6, 2015</td>
+      <td valign="top"><a href="http://www.orlandosentinel.com/business/technology/tech_check/os-ucf-hosts-business-incubation-workshop-20150406-post.html" target="new">University of Central Florida to host federal grant program workshop</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 3, 2015</td>
+      <td valign="top"><a href="http://www.pnj.com/story/opinion/2015/04/04/viewpoint-give-economy-push/25262589/" target="new">Let's give our economy a push</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 3, 2015</td>
+      <td valign="top"><a href="http://www.orlandosentinel.com/business/technology/tech_check/os-chadwick-to-lead-national-group-20150403-post.html" target="new">Local business leader  Kirstie Chadwick to lead national incubator group</a></td>
+    </tr>
+    <tr>
+      <td valign="top">March 20, 2015</td>
+      <td valign="top"><a href="http://www.mysuncoast.com/business/from-the-kitchen-of-spark-growth---food-industry/article_645a2be6-cf6a-11e4-a7a6-f73b0239f4cc.html" target="new">From the Kitchen of Spark Growth - Food Industry  Innovation</a></td>
+    </tr>
+    <tr>
+      <td valign="top">March 20, 2015</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/clearwater-ceo-opens-north-pinellas-business-incubator/2222187" target="new">Clearwater CEO opens North  Pinellas business incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">March 12, 2015</td>
+      <td valign="top"><a href="http://www.sun-sentinel.com/business/small-business/fl-everyware-research-park-boca-20150312-story.html" target="new">Mobile marketing business moves to FAU Research Park</a></td>
+    </tr>
+    <tr>
+      <td valign="top">March 11, 2015</td>
+      <td valign="top"><a href="http://www.sun-sentinel.com/local/palm-beach/delray-beach/fl-drf-center-0311-20150311-story.html" target="new">Women learn from women at business center</a></td>
+    </tr>
+    <tr>
+      <td valign="top">March 10, 2015</td>
+      <td valign="top"><a href="http://www.news-press.com/story/news/local/naples/2015/03/10/collier-leases-space-incubator/24724811/" target="new">Collier leases space for incubator</a> &#8212; March 10, 2015</p>
+<p><a href="Events/2015/scholarship.html">FBIA &amp; NBIA Offer Joint Scholarship for 29th  International Conference on Business Incubation</a></td>
+    </tr>
+    <tr>
+      <td valign="top">March 5, 2015</td>
+      <td valign="top"><a href="Events/2015/scholarship.html">FBIA &amp; NBIA Offer Joint Scholarship for 29th  International Conference on Business Incubation</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 28, 2015</td>
+      <td valign="top"><a href="http://www.mysuncoast.com/business/spark-growth-sarasota-bradenton-hosts-leaders-conference/article_2c9f9644-bf5e-11e4-817c-4bd51eaea431.html" target="_blank">Spark Growth Sarasota-Bradenton hosts 3.0  Leaders Conference 2015</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 25, 2015</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/news/2015/02/25/ucf-looks-to-break-ground-on-45m-incubator.html" target="_blank">UCF looks to break ground on $45M incubator  facility this year</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 25, 2015</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/techsoft-academy-to-teach-software-to-bloggers-business-owners/2219150" target="_blank">Techsoft Academy to teach software to bloggers,  business owners</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 17, 2015</td>
+      <td valign="top"><a href="http://www.tallahassee.com/story/news/local/2015/02/16/study-will-access-potential-wet-lab-innovation-park-eyes-future-development/23530445/" target="_blank">Study will assess potential for wet lab as  Innovation Park eyes future development </a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 4, 2015</td>
+      <td valign="top"><a href="http://www.sun-sentinel.com/local/palm-beach/fl-palm-nonprofit-hackathon-20150204-story.html" target="_blank">'Hackathon' to help Palm Beach County nonprofits  with technology challenges</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 29, 2015</td>
+      <td valign="top"><a href="http://www.sun-sentinel.com/business/small-business/fl-hollywood-venture-capital-conference-20150129-story.html" target="new">Entrepreneurs could get help to test new  education ideas</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 27, 2015</td>
+      <td valign="top"><a href="http://www.research-park.org/index.cfm?fuseaction=news.details&amp;ArticleId=275&amp;returnTo=press-releases" target="new">Andrew Duffell Wins 40 Under 40 Award in  Economic Development</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 23, 2015</td>
+      <td valign="top"><a href="http://www.forbes.com/sites/drewhendricks/2015/01/23/5-creative-ways-business-incubators-are-helping-their-startups-succeed/" target="new">5 Creative Ways Business Incubators Are Helping Their Startups Succeed</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 22, 2015</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/morning_call/2015/01/csf-opens-orlando-office-to-expand-opportunities.html" target="new">CSF opens Orlando office to expand opportunities  for defense simulation work</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 19, 2015</td>
+      <td valign="top"><a href="http://www.news-press.com/story/news/2015/01/18/collier-incubators-moving-forward/21973333/" target="new">Collier business incubators moving forward</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 16, 2015</td>
+      <td valign="top"><a href="http://suncoastnews.com/su/list/news-pasco/business-development-week-to-include-some-new-wrinkles-20150117/" target="new">Business Development Week  to include some new wrinkles</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 15, 2015</td>
+      <td valign="top"><a href="http://www.bizjournals.com/southflorida/news/2015/01/15/broward-college-launches-business-incubator.html" target="new">Broward College launches business incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 13, 2015</td>
+      <td valign="top"><a href="http://www.sun-sentinel.com/business/small-business/fl-tech-runway-2015-class-20150113-story.html" target="new">FAU start-up incubator accepting applications</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 13, 2015</td>
+      <td valign="top"><a href="http://www.theherald-news.com/2015/01/13/usf-incubator-program-provides-space-for-new-business-to-grow-in-joliet/a8kax2w/" target="new">USF Incubator Program provides space for new business to grow in Joliet</a></td>
+    </tr>
+    <tr>
+      <td valign="top">January 11, 2015</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20150111/BUSINESS/150119870?Title=Business-incubator-services-set-to-begin-in-W-Volusia" target="new">Business incubator services set to begin in W. Volusia</a></td>
+    </tr>
+    <tr>
+      <td valign="top">December 29, 2014</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20141229/BUSINESS/141229428/1024?Title=Cultivating-homegrown-jobs-Startups-growing-existing-firms-seen-as-ways-to-boost-economy" target="_blank">Cultivating homegrown jobs: Startups, growing existing firms seen as ways  to boost economy</a></td>
+    </tr>
+    <tr>
+      <td valign="top">December 26, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/news/2014/12/26/ucfs-st-cloud-incubator-closing.html" target="_blank">UCF's St. Cloud incubator closing</a></td>
+    </tr>
+    <tr>
+      <td valign="top">December 19, 2014</td>
+      <td valign="top"><a href="http://www.orlandosentinel.com/business/technology/tech_check/os-married-couple-launches-virtual-incubator-to-help-travelbased-technology-startups-20141219-post.html" target="_blank">Couple launches virtual incubator to help travel-based technology  startups</a></td>
+    </tr>
+    <tr>
+      <td valign="top">December 17, 2014</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20141217/BUSINESS/141219435/1024?Title=SCORE-incubator-form-partnership" target="_blank">SCORE, incubator form partnership</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 28, 2014</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/localgovernment/where-to-start-in-reviving-downtown-clearwater/2208278" target="new">Where to start in reviving downtown Clearwater?</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 28, 2014</td>
+      <td valign="top"><a href="http://suncoastnews.com/su/list/news-pasco/workshop-focuses-on-concepts-for-sims-park-improvements-20141128/" target="new">Workshop focuses on concepts for Sims Park improvements</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 25, 2014</td>
+      <td valign="top"><a href="http://suncoastnews.com/su/list/news-pasco/tech-sector-seeks-growth-in-downtown-npr-20141125/" target="new">Tech sector seeks growth in downtown NPR</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 23, 2014</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20141123/BUSINESS/141129750/1024?Title=Entrepreneur-forum-kicks-off-in-Daytona" target="new">Entrepreneur forum kicks off in Daytona</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 21, 2014</td>
+      <td valign="top"><a href="http://suncoastnews.com/su/list/news-pasco/inaugural-smartstart-challenge-at-npr-incubator-20141121/" target="new">Inaugural SMARTstart Challenge at NPR incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 17, 2014</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20141117/BUSINESS/141119466/1024?Title=Plan-could-lead-to-creation-of-second-incubator" target="new">Plan could lead to creation of second incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 8, 2014</td>
+      <td valign="top"><a href="http://members.jacksonville.com/news/metro/2014-11-08/story/kyn-falling-out-khan-demonstrates-high-risk-nature-business-startups-and" target="_blank">KYN falling-out with Khan demonstrates high-risk nature of business startups and their support groups</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 6, 2014</td>
+      <td valign="top"><a href="http://www.miamiherald.com/news/local/community/miami-dade/miami-beach/article3603426.html" target="_blank">Miami business incubator to create local green jobs</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 6, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/news/2014/11/06/tampa-law-firm-opens-satellite-at-usf-connect.html" target="_blank">Law firm opens satellite at USF Connect incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">November 6, 2014</td>
+      <td valign="top"><a href="http://www.tbnweekly.com/pubs/pinellas_park_beacon/content_articles/110614_par-03.txt" target="_blank">Business incubator profile: Colleen&rsquo;s Healthy Indulgence </a></td>
+    </tr>
+    <tr>
+      <td valign="top">October 18, 2014</td>
+      <td valign="top"><a href="http://www.bradenton.com/2014/10/18/5421972_bradenton-business-incubator-ready.html?rh=1" target="_blank">Bradenton business incubator ready for the next great idea</a></td>
+    </tr>
+    <tr>
+      <td valign="top">October 18, 2014</td>
+      <td valign="top"><a href="http://spacecoastdaily.com/2014/10/forbes-florida-tech-a-top-entrepreneurial-university/" target="_blank">FORBES: Florida Tech A Top Entrepreneurial University</a></td>
+    </tr>
+    <tr>
+      <td valign="top">October 18, 2014</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/start-ups-migrate-to-tec-garage-incubator-drawn-by-rising-cool-factor-in/2202201" target="_blank">Startups migrate to TEC Garage incubator, drawn by rising 'cool'<br />
+factor in downtown St. Petersburg</a></td>
+    </tr>
+    <tr>
+      <td valign="top">October 14, 2014</td>
+      <td valign="top"><a href="http://www.theledger.com/article/20141014/NEWS/141019640/1134?Title=Marshall-Goodman-Ex-administrator-For-USF-Helping-Collier-County" target="_blank">Marshall Goodman: Ex-administrator For USF Helping Collier County</a></td>
+    </tr>
+    <tr>
+      <td valign="top">October 5, 2014</td>
+      <td valign="top"><a href="http://www.orlandosentinel.com/business/os-cfb-tech-incubator-impact-1006-20141005-story.html" target="_blank">Incubator boasts 3,600 jobs in 15 years</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 30, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/blog/2014/09/ucf-incubators-impact-2-5b-on-regional-economy.html" target="_blank">UCF incubator's impact: $2.5B on regional economy</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 30, 2014</td>
+      <td valign="top"><a href="http://www.heraldtribune.com/article/20140930/ARTICLE/140939994/-1/news?Title=Business-incubator-founder-addresses-Booker-students" target="_blank">Business incubator founder addresses Booker students</a> </td>
+    </tr>
+    <tr>
+      <td valign="top">September 29, 2014</td>
+      <td valign="top"><a href="http://www.heraldtribune.com/article/20140929/ARTICLE/309299990" target="_blank">HuB incubator opening its campus program</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 28. 2014</td>
+      <td valign="top"><a href="http://www.gainesville.com/article/20140928/ARTICLES/140929700" target="_blank">Alachua County business announcements</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 25, 2014</td>
+      <td valign="top"><a href="http://www.miamiherald.com/news/business/article2245738.html" target="_blank">EcoTech raises $172,000 in grants for green-business incubator, programs</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 25, 2014</td>
+      <td valign="top"><a href="http://www.tallahassee.com/story/news/money/2014/09/25/research-is-a-key-ingredient-in-floridas-technology-future/16233261/" target="_blank">Research is a key ingredient in Florida's technology future</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 24, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/news/2014/09/24/tampa-bay-wave-introduces-new-class-graduates.html" target="_blank">Tampa Bay WaVE introduces new class, graduates another to Launch Phase</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 19, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/jacksonville/blog/morning-edition/2014/09/university-of-florida-incubator-gets-national.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+industry_6+%28Industry+Health+Care%29" target="_blank">University of Florida incubator gets national economic development recognition</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 8, 2014</td>
+      <td valign="top"><a href="http://www.orlandosentinel.com/business/brinkmann-on-business/os-lake-wales-investor-offers-cash-to-travel-startups-20140908-post.html" target="_blank">Lake Wales investor offers cash to travel startups</a></td>
+    </tr>
+    <tr>
+      <td valign="top">September 8, 2014</td>
+      <td valign="top"><a href="http://www.traveldailynews.com/news/article/62178/veteran-travel-entrepreneurs-launch-travel_" target="_blank">Veteran travel entrepreneurs launch travel Startups Incubator to invest $500,000 in 10 travel technology startups</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 25, 2014</td>
+      <td valign="top"><a href="http://health.wusf.usf.edu/post/healthbox-incubator-kickstarts-innovators" target="_blank">&lsquo;Healthbox&rsquo; Incubator Kickstarts Innovators</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 25, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/blog/morning-edition/2014/08/bradenton-incubator-gets-office-space.html" target="_blank">Bradenton incubator gets office space</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 23, 2014</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20140823/BUSINESS/140829689/1024?Title=Daytona-business-incubator-aims-to-cultivate-innovative-startups" target="_blank">Daytona business incubator aims to cultivate innovative startups</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 18, 2014</td>
+      <td valign="top"><a href="http://www.83degreesmedia.com/innovationnews/smartstart081914.aspx" target="_blank">SMARTstart Business Incubator In Pasco Expands Services, Space</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 18, 2014</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20140818/BUSINESS/140819453?Title=Incubator-marks-its-third-anniversary" target="_blank">Incubator marks its third anniversary</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 13, 2014</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20140813/BUSINESS/140819805/1024?Title=Incubator-advisory-board-to-meet-next-week&amp;tc=ar" target="_blank">Incubator advisory board to meet next week</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 7, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/news/2014/08/07/national-business-incubation-association.html" target="_blank">National Business Incubation Association relocates HQ to Orlando</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 3, 2014</td>
+      <td valign="top"><a href="http://www.miamiherald.com/2014/08/03/4267348/ecotech-seeks-to-develop-incubator.html" target="_blank">EcoTech seeks to develop incubator for &lsquo;green&rsquo; product companies</a></td>
+    </tr>
+    <tr>
+      <td valign="top">August 3, 2014</td>
+      <td valign="top"><a href="http://www.miamiherald.com/2014/08/03/4267251/new-wave-of-entrepreneurial-spaces.html" target="_blank">New wave of entrepreneurial spaces washing ashore in South Florida</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 31, 2014</td>
+      <td valign="top"><a href="http://www.forbes.com/sites/elainepofeldt/2014/07/31/how-to-create-a-startup-hub/" target="_blank">How To Create A Startup Hub</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 31, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/news/2014/07/31/tec-garage-plans-fall-opening.html" target="_blank">TEC Garage plans fall opening</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 30, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/southflorida/news/2014/07/30/fau-seeks-entrepreneurs-cybersecurity-solutions.html" target="_blank">FAU seeks entrepreneurs to create cybersecurity solutions</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 25, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/blog/morning-edition/2014/07/business-incubator-pledges-to-help-midtown-st.html" target="new">Business incubator pledges to help Midtown St. Petersburg companies move to the next level</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 15, 2014</td>
+      <td valign="top"><a href="http://www.baynews9.com/content/news/baynews9/news/article.html/content/news/articles/bn9/2014/7/15/new_port_richey_busi.html" target="new">New Port Richey business incubator lands $50K scholarship</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 15, 2014</td>
+      <td valign="top"><a href="http://bocanewsnow.com/2014/07/15/top-secret-fau-cryptology-center-seeking-new-tenants/" target="new">FAU Cryptology Center Seeking New Tenants</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 8, 2014</td>
+      <td valign="top"><a href="http://www.forbes.com/sites/groupthink/2014/07/08/real-business-incubators-build-business/" target="_blank">Real Business Incubators Build Business</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 3, 2014</td>
+      <td valign="top"><a href="http://www.ocala.com/article/20140703/ARTICLES/140709889?Title=Business-incubator-offers-free-mobile-app" target="_blank">Business incubator offers free mobile app</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 3, 2014</td>
+      <td valign="top"><a href="http://articles.sun-sentinel.com/2014-07-03/business/fl-coral-springs-incubator-20140626_1_incubator-rob-strandberg-edc" target="_blank">New business incubators filling up fast</a></td>
+    </tr>
+    <tr>
+      <td valign="top">July 1, 2014</td>
+      <td valign="top"><a href="http://suncoastnews.com/su/list/news-pasco/business-incubator-in-npr-officialy-open-20140630/" target="_blank">Business incubator in NPR officially open</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 23, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/news/2014/06/23/ny-company-plans-small-business-retail-incubator.html?page=all" target="new">NY company plans small-business retail incubator in downtown St. Pete</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 19, 2014</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/economicdevelopment/business-incubator-planned-for-downtown-st-petersburg/2185191" target="new">Business incubator planned near downtown St. Petersburg</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 19, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/news/2014/06/19/nurturing-growth-inside-osceola-mall-s-latin-biz.html" target="new">Nurturing growth: Inside Osceola mall’s Latin biz incubator </a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 10, 2014</td>
+      <td valign="top"><a href="http://www.myfoxorlando.com/story/25739641/startup-gaming-companies-get-space-at-ucf" target="new">Startup gaming companies get space at UCF</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 8, 2014</td>
+      <td valign="top"><a href="http://www.orlandosentinel.com/business/os-cfb-cover-biotech-spinoffs-lake-nona-20140604,0,5230231.story" target="new">Medical City still laying groundwork for spinoff businesses</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 6, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/blog/morning-edition/2014/06/la-s-lion-biotechnologies-stakes-out-r-d-outpostat.html" target="new">LA&rsquo;s Lion Biotechnologies stakes out R&amp;D outpost at USF</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 5, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/tampabay/news/2014/06/05/pasco-county-adds-second-business-incubator.html" target="new">Pasco County adds second business incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 4, 2015</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/new-port-richey-entrepreneur-moves-into-new-smartstart-incubator/2183128" target="new">New Port Richey entrepreneur moves into new SMARTstart incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 4, 2014</td>
+      <td valign="top"><a href="http://www.bizjournals.com/orlando/news/2014/06/04/lgbt-business-incubator-planned-for-orlando.html" target="new">LGBT business incubator planned for Orlando </a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 1, 2014</td>
+      <td valign="top"><a href="https://www.google.com/url?rct=j&amp;sa=t&amp;url=http://www.centralfloridafuture.com/news/ucf-business-incubation-program-receives-recognition-1.2868025&amp;ct=ga&amp;cd=CAEYACoUMTA5ODk0ODg3MjE0MjA4NDAwNjgyGjY2MTcwZmM5ZDJlOTJmMTA6Y29tOmVuOlVT&amp;usg=AFQjCNHTLsB35iud79-SLPR7eNwCe5tTvg" target="new">UCF Business Incubation Program receives  recognition</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 1, 2014</td>
+      <td valign="top"><a href="https://www.google.com/url?rct=j&amp;sa=t&amp;url=http://jacksonville.com/business/2014-05-31/story/beaver-street-enterprise-center-helps-build-new-businesses-jacksonville&amp;ct=ga&amp;cd=CAEYAyoTMjY2MDY4NTkwMjYwNzc2OTAyODIaNjYxNzBmYzlkMmU5MmYxMDpjb206ZW46VVM&amp;usg=AFQjCNGXJCSJl-nmDWPHzSrKVgSwliIMlQ" target="new">Beaver  Street Enterprise Center helps build new businesses in Jacksonville</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 29, 2014</td>
+      <td valign="top"><a href="http://www.ocala.com/article/20140529/ARTICLES/140529623/-1/entertainment02?Title=Start-ups-move-into-business-incubator" target="new">Start-ups move into business incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 28, 2014</td>
+      <td valign="top"><a href="http://www.baynews9.com/content/news/baynews9/news/article.html/content/news/articles/bn9/2014/5/27/have_a_business_idea.html" target="new">Have a business idea?  This could be for you</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 22, 2014</td>
+      <td valign="top"><a href="http://www.tallahassee.com/story/news/money/2014/05/22/new-domi-station-incubator-is-open-for-business/9467265/" target="new">New  Domi Station incubator is open for business</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 21, 2014</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/localgovernment/hillsborough-moves-ahead-with-new-business-incubator/2180747" target="new">Hillsborough moves ahead with business resource center</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 16, 2014</td>
+      <td valign="top"><a href="http://www.tallahassee.com/story/opinion/editorials/2014/05/16/opinion-urban-incubator/9193119/" target="new">Our Opinion: Urban incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 14, 2014</td>
+      <td valign="top"><a href="http://www.bocaratontribune.com/2014/05/virtual-tech-offices-now-offered-at-technology-business-incubator/" target="new">Virtual Tech Offices Now Offered at Technology Business  Incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 11, 2014</td>
+      <td valign="top"><a href="http://www.news-journalonline.com/article/20140511/NEWS/140519883/1040?p=all&amp;tc=pgall" target="new">Port Orange looks to lease old police headquarters</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 6, 2014</td>
+      <td valign="top"><a href="https://www.youtube.com/watch?v=sHtMkt6yb94&amp;feature=youtu.be" target="new">Business incubator to open  soon</a></td>
+    </tr>
+    <tr>
+      <td valign="top">May 1, 2014</td>
+      <td valign="top"><a href="http://www.entrepreneur.com/article/233559" target="new">Why Entrepreneurship is 'Catching Fire' at Florida  Atlantic University</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 24, 2014</td>
+      <td valign="top"><a href="http://tbo.com/pinellas-county/pinellas-park-creates-incubator-for-new-businesses-20140424/" target="new">Pinellas Park creates incubator for new businesses</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 22, 2014</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/a-call-for-two-tampa-bay-area-mayors-to-pitch-regions-tech-start-up/2176359" target="new">Tampa Bay area mayors pitch region's tech, startup economies  with one voice</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 17, 2014</td>
+      <td valign="top"><a href="http://bocanewsnow.com/2014/04/17/technology-incubator-at-fau-refocuses-on-technology/" target="new"> Technology Incubator at FAU Refocuses On Technology</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 16, 2014</td>
+      <td valign="top"><a href="http://www.tallahassee.com/article/20140416/BUSINESS02/140416013/Incubator-shape-growth-Tallahassee-area-tech-firms?nclick_check=1" target="new">Incubator to shape the growth of Tallahassee area tech firms</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 15, 2014</td>
+      <td valign="top"><a href="http://www.tampabay.com/news/business/in-downtown-st-petersburg-a-business-incubator-will-open-in-st-petersburg/2175222" target="new">In downtown St. Petersburg, a business incubator will open  in St. Petersburg College facility</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 11, 2014</td>
+      <td valign="top"><a href="http://www.bradenton.com/2014/04/11/5097338/planned-bradenton-business-incubator.html?sp=/99/102/" target="new">Planned Bradenton business incubator  helped by Purdue University's strategic doing</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 8, 2014</td>
+      <td valign="top"><a href="http://www.bradenton.com/2014/04/08/5091195/business-incubator-eyes-former.html?sp=/99/102/" target="new">Business incubator eyes former  Bradenton fire station as home</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 3, 2014</td>
+      <td valign="top"><a href="http://www.tbnweekly.com/pubs/pinellas_park_beacon/content_articles/040314_par-03.txt" target="new">Pinellas  Park opens business incubator</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 24, 2014</td>
+      <td valign="top"><a href="2014/2-24_scholarship.html">FBIA &amp; NBIA Offer Scholarship to Attend </strong>8th International Conference on Business  Incubation</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 8, 2013</td>
+      <td valign="top"><a href="2013/2-8_bip.html">Florida Business Incubation Assn. concludes bi-annual Conference  in Largo</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 16, 2012</td>
+      <td valign="top"><a href="2012/2-16_largo.html">Florida Business Incubation Assn. concludes bi-annual Conference  in Largo</a></td>
+    </tr>
+    <tr>
+      <td valign="top">June 23-24, 2011</td>
+      <td valign="top"><strong><a href="http://www.fedc.net/professional-development/conference/" target="_new">June 23 - 24: FEDC's 2011 Annual Conference, in Orlando</a></strong></td>
+    </tr>
+    <tr>
+      <td valign="top">June 3, 2011</td>
+      <td valign="top"><strong><a href="http://www.eflorida.com/ContentSubpageFull.aspx?id=4752" target="_new">Nominations open for the 2011 Governor's Business  Diversification Awards</a></strong></td>
+    </tr>
+    <tr>
+      <td valign="top">April 6,2001</td>
+      <td valign="top"><a href="2011/4-6_huxtable.html">Grace Huxtable - WBO Honoree</a></td>
+    </tr>
+    <tr>
+      <td valign="top">April 6, 2011</td>
+      <td valign="top"><a href="2011/4-6_lee.html">Arthur J. Lee - 2011 SBA Honoree</a></td>
+    </tr>
+    <tr>
+      <td valign="top">2009</td>
+      <td valign="top"><a href="2009/newsletter.html">FBIA Incubators in the News</a></td>
+    </tr>
+    <tr>
+      <td width="22%" valign="top">October 6, 2009</td>
+      <td width="78%" valign="top"><a href="2009/Securboration FL TODAY 10-6-09.pdf" target="_new">Two Melbourne Companies Secure Military Deals That Will Create Jobs</a></td>
+    </tr>
+    <tr>
+      <td valign="top">October 5, 2009</td>
+      <td valign="top"><a href="2009/SecurborationRelease-1002091.pdf" target="new">U.S. Air Force Awards $32 Million SBIR Contract to Melbourne Business - TRDA Business Innovation Center Client Lands Phase III Award</a></td>
+    </tr>
+    <tr>
+      <td valign="top">February 3, 2006</td>
+      <td valign="top"><a href="2006/2-3_Scholarship.html">Statewide Teams up with National Incubator Association to Offer Conference
+      Scholarship Opportunities </a></td>
+    </tr>
+  </table>
+  &nbsp;
+</div>
+<!-- InstanceEndEditable -->
+<div id="footer">
+  <span class="footer"><a href="../index.htm">Home</a> | <a href="../About/about.htm">About</a> | <a href="news.html">News</a> | <a href="../Incubators/incubators.htm">
+      Incubators</a> | <a href="../Events/index.htm">Events</a> | <a href="../Resources/resources.htm">Resources</a> | <a href="../Join/join.htm">Join
+    FBIA</a> | <a href="../Contact/contact.htm">Contact Us</a></span>
+</div>
+
+</div>
+</body>
+<!-- InstanceEnd --></html>

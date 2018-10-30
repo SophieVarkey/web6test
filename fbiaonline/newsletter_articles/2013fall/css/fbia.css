@@ -1,0 +1,152 @@
+@charset "UTF-8";
+a:link {
+	color: #052E8C;
+	font-weight: bold;
+}
+a:visited {
+	color: #042D8A;
+}
+a:hover {
+	color: #254ECE;
+	text-decoration: none;
+}
+a:active {
+	color: #234DCB;
+}
+/* CSS Document */
+
+img.floatLeft {
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+img.floatRight {
+	float: right;
+	margin: 10px;
+	border: 1px dotted #CCC;
+	padding: 5px;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/bkg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #F9F9F9;
+}
+.BottomText {
+	font-family: Candara;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #666;
+	padding: 10px;
+	margin: 0px;
+}
+.SideMenu {
+	font-family: Candara;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: left;
+	padding: 5px;
+}
+.SideMenuText {
+	font-family: Candara;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+.SideMenuTextCopy {
+	font-family: Candara;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+.StoryTitle {
+	font-family: Candara;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: normal;
+	color: #052E90;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	line-height: normal;
+}
+.SubTitle {
+	font-family: Candara;
+	font-size: 18
+]\;
+	font-style: normal;
+	font-weight: normal;
+	color: #052E90;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+}
+.SubTitleGreen {
+	font-family: Candara;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	color: #224BCC;
+	text-decoration: none;
+	text-align: right;
+	padding: 0px;
+}
+.StoryText {
+	font-family: Candara;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	padding: 5px;
+	line-height: 20px;
+}
+.ImageTxt {
+	font-family: Candara;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	line-height: normal;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}

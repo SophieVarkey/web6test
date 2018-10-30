@@ -1,0 +1,165 @@
+@charset "UTF-8";
+a:link {
+	color: #0A4B81;
+	font-weight: bold;
+}
+a:visited {
+	color: #0A4B81;
+}
+a:hover {
+	color: #0F4A81;
+	text-decoration: none;
+}
+a:active {
+	color: #1E5C93;
+}
+/* CSS Document */
+
+body {
+	background-image: url(../images/bkg.gif);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.BottomText {
+	font-family: Calibri;
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #666;
+	padding: 10px;
+	margin: 0px;
+}
+.SideMenu {
+	font-family: Calibri;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0F4A81;
+	text-decoration: underline;
+	text-align: left;
+	padding: 5px;
+}
+.SideMenuText {
+	font-family: Calibri;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	line-height: normal;
+	font-variant: normal;
+}
+.StoryTitle {
+	font-family: Calibri;
+	font-size: 37px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0F4A81;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+}
+.StoryTitleGreen {
+	font-family: Calibri;
+	font-size: 33px;
+	font-style: normal;
+	font-weight: normal;
+	color: #84C555;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+}
+.StoryTitleWhite {
+	font-family: Calibri;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+}
+.StoryText {
+	font-family: Calibri;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	padding: 4px;
+	text-align: left;
+}
+.StoryTextWhite {
+	font-family: Calibri;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 4px;
+	text-align: left;
+}
+.StoryTextTitle {
+	font-family: Calibri;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0A4B81;
+	text-decoration: none;
+	padding: 0px;
+	text-align: left;
+}
+.StoryText2 {
+	font-family: Calibri;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+}
+.StoryTitleLG {
+	font-family: Calibri;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+	padding: 3px;
+	background-color: #0A4B81;
+}
+.StoryTitleLGreen {
+	font-family: Calibri;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0A4B81;
+	text-decoration: none;
+	text-align: left;
+	padding: 7px;
+	background-color: #81C453;
+}
+.ImageTxt {
+	font-family: Calibri;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}

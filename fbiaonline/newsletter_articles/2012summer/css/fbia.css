@@ -1,0 +1,85 @@
+@charset "UTF-8";
+a:link {
+	color: #333;
+	font-weight: bold;
+}
+a:visited {
+	color: #333;
+}
+a:hover {
+	color: #0F4A81;
+	text-decoration: none;
+}
+a:active {
+	color: #1E5C93;
+}
+/* CSS Document */
+
+body {
+	background-image: url(../../Previous/2012_SpringSummer/images/bkg.gif);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.BottomText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #666;
+	padding: 10px;
+	margin: 0px;
+}
+.SideMenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0F4A81;
+	text-decoration: underline;
+	text-align: left;
+	padding: 5px;
+}
+.SideMenuText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	padding: 0px;
+}
+.StoryTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0F4A81;
+	text-decoration: none;
+	text-align: left;
+	padding: 5px;
+}
+.StoryText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	padding: 5px;
+}
+.ImageTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	padding: 5px;
+}

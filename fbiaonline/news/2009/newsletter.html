@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/news.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Florida Business Incubation Association</title>
+<link href="../../CSSFiles/fbia.css" rel="stylesheet" type="text/css" />
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ 
+//-->
+</script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+//v1.7
+// Flash Player Version Detection
+// Detect Client Browser type
+// Copyright 2005-2008 Adobe Systems Incorporated.  All rights reserved.
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+function ControlVersion()
+{
+	var version;
+	var axo;
+	var e;
+	// NOTE : new ActiveXObject(strFoo) throws an exception if strFoo isn't in the registry
+	try {
+		// version will be set for 7.X or greater players
+		axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+		version = axo.GetVariable("$version");
+	} catch (e) {
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 6.X players only
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+			
+			// installed player is some revision of 6.0
+			// GetVariable("$version") crashes for versions 6.0.22 through 6.0.29,
+			// so we have to be careful. 
+			
+			// default to the first public version
+			version = "WIN 6,0,21,0";
+			// throws if AllowScripAccess does not exist (introduced in 6.0r47)		
+			axo.AllowScriptAccess = "always";
+			// safe to call for 6.0r47 or greater
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 4.X or 5.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 3.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = "WIN 3,0,18,0";
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 2.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+			version = "WIN 2,0,0,11";
+		} catch (e) {
+			version = -1;
+		}
+	}
+	
+	return version;
+}
+// JavaScript helper required to detect Flash Player PlugIn version information
+function GetSwfVer(){
+	// NS/Opera version >= 3 check for Flash plugin in plugin array
+	var flashVer = -1;
+	
+	if (navigator.plugins != null && navigator.plugins.length > 0) {
+		if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+			var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+			var descArray = flashDescription.split(" ");
+			var tempArrayMajor = descArray[2].split(".");			
+			var versionMajor = tempArrayMajor[0];
+			var versionMinor = tempArrayMajor[1];
+			var versionRevision = descArray[3];
+			if (versionRevision == "") {
+				versionRevision = descArray[4];
+			}
+			if (versionRevision[0] == "d") {
+				versionRevision = versionRevision.substring(1);
+			} else if (versionRevision[0] == "r") {
+				versionRevision = versionRevision.substring(1);
+				if (versionRevision.indexOf("d") > 0) {
+					versionRevision = versionRevision.substring(0, versionRevision.indexOf("d"));
+				}
+			}
+			var flashVer = versionMajor + "." + versionMinor + "." + versionRevision;
+		}
+	}
+	// MSN/WebTV 2.6 supports Flash 4
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1) flashVer = 4;
+	// WebTV 2.5 supports Flash 3
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1) flashVer = 3;
+	// older WebTV supports Flash 2
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 2;
+	else if ( isIE && isWin && !isOpera ) {
+		flashVer = ControlVersion();
+	}	
+	return flashVer;
+}
+// When called with reqMajorVer, reqMinorVer, reqRevision returns true if that version or greater is available
+function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)
+{
+	versionStr = GetSwfVer();
+	if (versionStr == -1 ) {
+		return false;
+	} else if (versionStr != 0) {
+		if(isIE && isWin && !isOpera) {
+			// Given "WIN 2,0,0,11"
+			tempArray         = versionStr.split(" "); 	// ["WIN", "2,0,0,11"]
+			tempString        = tempArray[1];			// "2,0,0,11"
+			versionArray      = tempString.split(",");	// ['2', '0', '0', '11']
+		} else {
+			versionArray      = versionStr.split(".");
+		}
+		var versionMajor      = versionArray[0];
+		var versionMinor      = versionArray[1];
+		var versionRevision   = versionArray[2];
+        	// is the major.revision >= requested major.revision AND the minor version >= requested minor
+		if (versionMajor > parseFloat(reqMajorVer)) {
+			return true;
+		} else if (versionMajor == parseFloat(reqMajorVer)) {
+			if (versionMinor > parseFloat(reqMinorVer))
+				return true;
+			else if (versionMinor == parseFloat(reqMinorVer)) {
+				if (versionRevision >= parseFloat(reqRevision))
+					return true;
+			}
+		}
+		return false;
+	}
+}
+function AC_AddExtension(src, ext)
+{
+  if (src.indexOf('?') != -1)
+    return src.replace(/\?/, ext+'?'); 
+  else
+    return src + ext;
+}
+function AC_Generateobj(objAttrs, params, embedAttrs) 
+{ 
+  var str = '';
+  if (isIE && isWin && !isOpera)
+  {
+    str += '<object ';
+    for (var i in objAttrs)
+    {
+      str += i + '="' + objAttrs[i] + '" ';
+    }
+    str += '>';
+    for (var i in params)
+    {
+      str += '<param name="' + i + '" value="' + params[i] + '" /> ';
+    }
+    str += '</object>';
+  }
+  else
+  {
+    str += '<embed ';
+    for (var i in embedAttrs)
+    {
+      str += i + '="' + embedAttrs[i] + '" ';
+    }
+    str += '> </embed>';
+  }
+  document.write(str);
+}
+function AC_FL_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".swf", "movie", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+     , "application/x-shockwave-flash"
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_SW_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".dcr", "src", "clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+     , null
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
+  var ret = new Object();
+  ret.embedAttrs = new Object();
+  ret.params = new Object();
+  ret.objAttrs = new Object();
+  for (var i=0; i < args.length; i=i+2){
+    var currArg = args[i].toLowerCase();    
+    switch (currArg){	
+      case "classid":
+        break;
+      case "pluginspage":
+        ret.embedAttrs[args[i]] = args[i+1];
+        break;
+      case "src":
+      case "movie":	
+        args[i+1] = AC_AddExtension(args[i+1], ext);
+        ret.embedAttrs["src"] = args[i+1];
+        ret.params[srcParamName] = args[i+1];
+        break;
+      case "onafterupdate":
+      case "onbeforeupdate":
+      case "onblur":
+      case "oncellchange":
+      case "onclick":
+      case "ondblclick":
+      case "ondrag":
+      case "ondragend":
+      case "ondragenter":
+      case "ondragleave":
+      case "ondragover":
+      case "ondrop":
+      case "onfinish":
+      case "onfocus":
+      case "onhelp":
+      case "onmousedown":
+      case "onmouseup":
+      case "onmouseover":
+      case "onmousemove":
+      case "onmouseout":
+      case "onkeypress":
+      case "onkeydown":
+      case "onkeyup":
+      case "onload":
+      case "onlosecapture":
+      case "onpropertychange":
+      case "onreadystatechange":
+      case "onrowsdelete":
+      case "onrowenter":
+      case "onrowexit":
+      case "onrowsinserted":
+      case "onstart":
+      case "onscroll":
+      case "onbeforeeditfocus":
+      case "onactivate":
+      case "onbeforedeactivate":
+      case "ondeactivate":
+      case "type":
+      case "codebase":
+      case "id":
+        ret.objAttrs[args[i]] = args[i+1];
+        break;
+      case "width":
+      case "height":
+      case "align":
+      case "vspace": 
+      case "hspace":
+      case "class":
+      case "title":
+      case "accesskey":
+      case "name":
+      case "tabindex":
+        ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+        break;
+      default:
+        ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+    }
+  }
+  ret.objAttrs["classid"] = classid;
+  if (mimeType) ret.embedAttrs["type"] = mimeType;
+  return ret;
+}
+// -->
+</script>
+
+<!--Google Analytics -->
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1606324-15']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+<!--/Google Analytics -->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="banner"></div>
+
+<div id="navigation">
+  <ul>
+    <li><a href="../../index.htm">Home</a></li>
+    <li><a href="../../About/about.htm">About</a></li>
+    <li  id="current"><a href="../news.html">News</a></li>
+    <li><a href="../../Members/members.htm">Members</a></li>
+    <li><a href="../../Incubators/incubators.htm"> Incubators</a></li>
+    <li><a href="../../Events/index.htm">Events</a></li>
+    <li><a href="../../Resources/resources.htm">Resources</a></li>
+    <li><a href="../../Join/join.htm">Join</a></li>
+    <li><a href="../../Contact/contact.htm">Contact Us</a></li>
+  </ul>
+</div>
+<!--end navigation -->
+
+
+<!-- InstanceBeginEditable name="content" -->
+<div class="contenText">
+ <img src="../../images/PNG/news.png" width="700" height="60" alt="FBIA Incubators In The News" />
+  <h1 class="h2">North Florida Update</h1>
+
+<p><strong>Beaver Street Enterprise Center Tenants Win Awards for 2009</strong>
+ Andrew E. Harold, president of <a href="http://www.aha-llc.com/" target="_blank">A. Harold & Associates, LLC</a>, was awarded winner of the U.S. Small Business Association's regional Small Business Week with the 2009 Entrepreneurial Success Award.  Consideration for the award was between businesses in Florida, Georgia, Alabama, Mississippi, North Carolina, Souther Carolina, Tennesse and Kentucky.  Andy will be recognized at a luncheon during Small Business Week in May. 
+A. Harold &amp; Associates (AHA), LLC is a diversified, small business that provides
+  technology, education, engineering and training support services and products.
+  AHA is committed to offering unique solutions to complex problems through working
+  hand-in-hand with each client.
+ In addition, Monique Terry of <a href="http://affordablelending.lendingoutpost.com/default.aspx" target="_blank">Affordable
+    Lending Source</a> was selected as a
+  finalist in the non-technology graduate category for the National Business
+  Incubation Association (NBIA) Award. 
+Affordable Lending Source Corp. is committed to helping their clients find
+  the right mortgage product for their needs. Affordable Lending Source Corp.
+  offers a variety of products to meet every client's individual requirements.
+ For more information contact: Jacqulyn "Jackie" Perry at (904) 265-4702 (phone); E-mail:  <a href="mailto:perryj@bsecenter.net">perryj@bsecenter.net</a> or web:  <a href="http://www.bsecenter.net" target="_blank">www.bsecenter.net</a>
+<h1 class="h2">Central Florida Update    </h1><p ><strong>UCF Business Incubation Program (UCFBIP) Expands<img src="../../images/JPG/LakeIncubator.jpg" alt="Lake County Incubator" width="332" height="249" class="leftimage" /></strong>The Lake County Board of County Commissioners recently entered a partnership
+  agreement with the City of Leesburg and University of Central Florida Business
+  Incubation Program (UCFBIP) to strengthen a business incubator at the Leesburg
+  Business & Technology Center.
+  
+  
+The agreement will provide tools, training and infrastructure to start-up
+  companies at the incubator that was created by a partnership between Leesburg,
+  Lake-Sumter Community College Business Resources Center, Leesburg Chamber of
+  Commerce and SCORE. Under the new partnership agreement, space for the incubator
+  is provided by the City, and Lake County is supplying funding for incubator
+  staffing.
+ "Business incubation is a critical element of economic-development strategy," said Dottie Keedy, Director of the Lake County Department of Economic Growth & Redevelopment. "Studies show that 95 percent of companies stay in the community where they are established. Incubator support greatly reduces the risk of failure and 87 to 91 percent of companies that graduate from an incubator program are still in business five years later."
+
+  
+  With five other incubators throughout Central Florida, this will be UCF's first
+    incubator in Lake County. The UCFBIP will provide a variety of services to
+    companies at the Leesburg incubator, such as networking, business counseling,
+    finance & accounting, education, intellectual property, technology, legal services, marketing, office operations and public relations.
+"Incubators are important because statistics show that within the first three years of a new business there is a significant amount of businesses that don't make it," said Ken Thomas, Director of the Leesburg Economic Development Department. "In a business incubator, 85 percent of clients make it within the first three years."
+  
+  
+The City of St. Cloud and Osceola County are also developing a mixed-use incubator
+  and will provide funding support over a five year period. The St. Cloud/Osceola
+  County Incubator, which will be located in St. Cloud at the Stevens Plantation's
+  Corporate Campus, will consist of 14,000 sq. feet and could potentially support
+  20-30 high growth companies and would be located near the Lake Nona area. 
+  
+  
+  
+"Once the incubator is built, it will allow Central Florida to grow, and new jobs will be created.  Because incubators help diversify the economy, it will generate higher paying jobs. We expect the overall impact on the area to be great," said Ernie Gearhart, the Economic Development Consultant for the City of St. Cloud.
+ "Osceola County is working hard to bring together key partners to make things happen in our County." said Commissioner Fred Hawkins, Jr. "This program will not only allow Osceola County to grow its own companies, but will also help generate good, high wage jobs for our community." 
+  
+  
+The goal of the UCF Business Incubation Program (UCFBIP) and its community
+  partners is to facilitate smarter, faster startup and growth of emerging companies
+  so those companies will become financially successful, high-growth companies
+  in the community. For more information, visit www.incubator.ucf.edu.
+<hr align="center" width="75%">
+<p><strong>STAR TEC WELCOMES NEW CLIENT</strong>
+ <em><strong>WildBright Technologies Provides Innovative Solutions for Primary and Secondary
+  Education Market</strong></em><strong></strong><span class="h4"><strong><em><strong><strong><em><strong><img src="../../images/JPG/WildBright.jpg" alt="WildBright Technologies, Inc." width="332" height="124" align="top" class="leftimage" /></strong></em></strong></strong></em></strong></span>
+STAR TEC welcomes a new client WildBright Technologies.   WildBright Technologies
+  is a computer consultant firm offering full service consulting on information
+  technology and its application to business solutions. The company has developed
+  an innovative solution for the primary and secondary education market.<a href="http://http://www.wildbright.com/" target="_blank"> http://www.wildbright.com/ </a>
+&nbsp;
+<strong><em>Entrepreneurship Conference in St. Petersburg</em></strong>
+ The 2009 entrepreneurship conference will be held on June 3rd and 4th at
+  the Hilton Carillon Plaza in St. Petersburg. Successful entrepreneurs and innovative
+  leaders will share their experiences in a day-long series of panels and presentations.
+  For more information on either of these events, call Wendy Plant, (727) 547-7343.
+ Located on the central west coast of Florida, STAR TEC is the Tampa Bay area's
+  first technology and manufacturing business accelerator. Housed within the
+  Young-Rainey Science, Technology, and Research Center (STAR Center), a former
+  U.S. Department of Energy (USDOE) facility, STAR TEC supports the growth of
+  early stage manufacturing and technology-based companies. The program is managed
+  by Concurrent Technologies Corporation (CTC) Tampa Bay Inc. (CTCTBI), a not-for-profit
+  Florida corporation whose goal is to foster jobs and promote economic development
+  through assistance and support programs. For more information, visit <a href="http://www.STARTECflorida.com" target="_blank">www.STARTECflorida.com</a>. 
+<p align="left" class="h2">South Florida Update
+ <p><strong>Florida Institute for the Commercialization of Public Research Opens in October
+   '08</strong>
+  The Florida Institute for the Commercialization of Public Research (the
+   Institute) opened its doors in October 2008 and is actively engaged in the
+   development and support of successful startup companies based on publicly
+   funded research in the State of Florida. Their focus is building on the ongoing
+   State initiatives to expand the technology economy and specifically startup
+   companies that provide high paying jobs and generate revenue.
+   
+ Most recently the Institute has established its Board of Directors and elected
+   officers:
+   
+ <strong><em>Board of Directors</em></strong><br />
+   · <strong>Beau Ferrar</strong>i, Partner, Royal Palm Capital - Chairman<br />
+   · <strong>David Day</strong>, Director, Office of Technology Licensing, Sid 
+   Martin Biotechnology Development Incubator, University 
+   of Florida - Vice Chairman<br />
+   · <strong>Rhys L. Williams</strong>, New World Angels, iTherapeutics - 
+   Treasurer
+   · Darrell Kelley<br />
+   · J<strong>ohn A. Fraser</strong>, Assistant Vice President Research    
+   and 
+   Development, Florida State University. 
+The Institute is engaged in a number of new projects matching technology
+  startup opportunities with experienced serial entrepreneurs from a number
+  of institutions including FAU, Harbor Branch, FIU, FSU, and FGSU, and UF.
+  We are currently focused on creating a working inventory of start up opportunities,
+  technology based startup companies seeking funding, venture capital partners,
+  and serial entrepreneurs seeking new opportunities. Our goal is to engage
+  these partners in building Florida based technology companies that have "roots and wings" and
+  bear fruit in our own back yards.
+  To learn more about the Institute, visit our website at www.florida-institute.com,
+   or contact us at <a href="http://info@florida-institute.com" target="_blank">info@florida-institute.com </a>
+ <hr align="center" width="75%" />
+ <p>SouthWest Florida Community Comes Together to Support Project Innovation
+   <img src="../../images/JPG/Project-Innovation.jpg" alt="Project Innovation" width="332" height="88" class="leftimage" />
+  Innovation, is the Economic Development Council of Collier County's initiative
+   to create and execute a plan for economic sustainability. Project Innovation
+   has two critical goals: To create a shared vision and action plan for a strong
+   and innovative economy, using the power of the entire community; and to stimulate
+   innovation among businesses, schools, government and the community.
+  <strong>"Community of Innovation"</strong> is the core program of <strong>Project
+    Innovation</strong>, and is comprised of a series of participative sessions that will bring national resources to bear on Collier County's economic issues. Each session is bringing together a group of 150 community leaders and activists to work with some of the best minds in Economy Building in identifying areas of potential and the means of taking charge of our future prosperity. 
+ As a whole, <strong>Project Innovation</strong> is designed to identify the means of creating
+   a culture that will attract high wage employees and an environment that will
+   support world class employees. The process focuses on bringing community-wide
+   consensus on the importance of economy-building, a step needed to enable substantive
+   change; fostering creativity in identifying new opportunities, an approach
+   needed to develop a sustainable economy; and creating collaboration on delivering
+   needed resources and initiatives, a strategy needed to put ideas into action.
+   It will result in a specific, actionable plan to build a healthy economic
+   foundation for current and future generations.
+  Four additional components of Project Innovation are examining success stories,
+   collecting insights, and identifying resources.  <strong>"Champions of Innovation"</strong> offers an inside look at local companies, such as Arthrex, that have capitalized on innovation and productivity, while <strong>"Innovators' Insight,"</strong> a series of twelve podcasts, interviews individuals who have demonstrated creative thinking and practices.  From these original sources, the community can gain both concepts and inspiration.<strong> "The State of Innovation,"</strong> a radio show that allows the community to participate in discussions related to innovation and economy building programs, is also underway.
+  The final section, "Innovation at Work," consists of site visits, workshops
+   and discussions that will enable specification of current and potential community
+   assets that can be marshaled for economic development.
+  For more information on Project Innovation or to register for a program,
+   contact the Beth Skotzke EDC at 239.263.8989 or visit <a href="http://www.projectinnovation.cc" target="_blank">www.projectinnovation.cc </a>
+ <p class="h2">Legislative Update
+ <p><strong>EDA Funding Opportunities for Incubators</strong>
+  FBIA members now have an unparalleled opportunity to explain the importance
+   of their programs and to gain financial support or maintain existing investments,
+   if those are in danger.   
+ With many government agencies cutting back on local investments - and corporate
+   and foundation funds hard to come by - it's vitally important that your stakeholders
+   understand the value of business incubation, the innovations you commercialize
+   and the jobs you create. The message is clear: Now is not the time to cut
+   back on the nation's foremost job creators.
+   In the following message from the NBIA, we hope to provide links to tools
+   and information, resources you need to increase awareness of business incubation
+   generally (and of your program specifically), and to highlight the need to
+   leverage investments in the nation's entrepreneur support systems.   
+ <p>NBIA Update
+    The approval process for the stimulus package President Obama has recently
+   signed was so accelerated that the National Business Incubation Association
+   (NBIA) lacked sufficient time to have its collective voices heard. To have
+   more impact in upcoming appropriations discussions, NBIA members should begin
+   contacting their senators and representatives again shortly. However, current
+   EDA funding programs provide many opportunities for incubators.
+  <strong>About the appropriations process</strong><br />
+Federal agencies are currently funded by a continuing resolution, which is
+   set to expire in early March, so Congress must pass FY 2009 appropriations
+   legislation later this month. After that process is completed, congressional
+   leaders will begin deliberations on FY 2010 appropriations.
+  We need to make the case for increased FY 2010 funding for the U.S. Department
+   of Commerce's Economic Development Administration - and perhaps of even greater
+   importance - for more EDA funds to be shifted toward economic adjustment assistance
+   as authorized by section 209 of the Public Works and Economic Development
+   Act of 1965. The congressionally approved stimulus package includes $150 million
+   for EDA, including $50 million for economic adjustment assistance.
+  <strong>Currently
+   available EDA funding opportunities</strong><br />
+Given passage of the stimulus package
+   and existing EDA funding programs, there are opportunities for you to obtain
+   EDA grants to assist your program now. The bulk of EDA funds are generally
+   set aside for:   
+ * Public Works and Economic Development - <em>for commercial structures,
+     sewage systems, incubators and industrial parks. New incubators and expansions
+    are funded through this program.</em>
+  * Economic Adjustment Assistance - <em>designed to solve problems of severe
+   economic dislocation, often from a natural disaster, base closure, failure
+   of large industry or plant moving offshore. These section 209 funds are much
+   more flexible and may be used for planning, operations, strategy development,
+   bricks and mortar, and even to capitalize a loan fund.</em>
+ <em>Thus, business incubators could use economic adjustment assistance funds
+   to maintain current operations, initiate innovative new programs, and/or expand
+   services to new regions or populations. Keep in mind that EDA has expressed
+   interest in funding renewable-energy projects in recent years.   </em>
+ EDA also has recently announced the availability of $400 million appropriated
+   for disaster assistance to areas affected by hurricanes, floods or other natural
+   disasters during 2008. This announcement details the funding available to
+   each state. These funds can be used to help regions recover by diversifying
+   their local and regional economies; funding for incubators would fit under
+   these appropriations. EDA hopes to have these funds committed within 18 months.
+   For Florida, the allocation is $57.5 million.
+  Visit <a href="http://www.nbia.org/resource_center/works/index.php" target="_blank">http://www.nbia.org/resource_center/works/index.php</a> for more information.
+</div>
+<!-- InstanceEndEditable -->
+<div id="footer">
+  <span class="footer"><a href="../../index.htm">Home</a> | <a href="about.htm">About</a> | <a href="../../Videos/videos.html">Videos</a> |<a href="../../Members/members.htm">Members</a> | <a href="../../Incubators/incubators.htm">
+      Incubators</a> | <a href="../../Events/index.htm">Events</a> | <a href="../../Resources/resources.htm">Resources</a> | <a href="../../Join/join.htm">Join
+    FBIA</a> | <a href="../../Contact/contact.htm">Contact Us</a></span>
+</div>
+
+</div>
+</body>
+<!-- InstanceEnd --></html>

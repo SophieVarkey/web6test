@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Florida Business Incubation Association</title>
+<link href="../CSSFiles/fbia.css" rel="stylesheet" type="text/css" />
+
+<!--Google Analytics -->
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1606324-15']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+<!--/Google Analytics -->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="banner">
+</div>
+<!--end banner -->
+<!-- TemplateBeginEditable name="Content" -->
+<div id="navigation">
+  <ul>
+    <li><a href="../index.htm">Home</a></li>
+    <li id="current"><a href="../About/about.htm">About FBIA</a></li>
+    <li><a href="../Members/members.htm">Members</a></li>
+    <li><a href="../Incubators/incubators.htm">FBIA Incubators</a></li>
+    <li><a href="../Events/index.htm">Events</a></li>
+    <li><a href="../Resources/resources.htm">Resources</a></li>
+    <li><a href="../Join/join.htm">Join FBIA</a></li>
+    <li><a href="../Contact/contact.htm">Contact Us</a></li>
+  </ul>
+</div>
+<!--end navigation -->
+<div id="content"> Content for  id "content" Goes Here </div>
+<!--end content -->
+<!-- TemplateEndEditable -->
+<div class="footer" id="footer">
+
+	<a href="../index.htm">Home</a> | <a href="../About/about.htm">About Us</a> | 
+    <a href="../Members/members.htm">Members</a> | 
+    <a href="../Incubators/incubators.htm">Florida Incubators</a> | 
+    <a href="../Events/index.htm">Events</a> | 
+    <a href="../Resources/resources.htm">Resources</a> | 
+    <a href="../Join/join.htm">Join FBIA</a> | 
+    <a href="../Contact/contact.htm">Contact Us</a>
+  
+</div><!--end footer -->
+
+</div><!--end wrapper -->
+
+</body>
+</html>

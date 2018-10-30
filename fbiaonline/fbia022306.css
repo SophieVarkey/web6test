@@ -1,0 +1,206 @@
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #E1F3C9;
+}
+
+#wrapper {
+	margin: 0px auto auto;
+	width: 775px;
+}
+
+#banner {
+	background:  url(../images/GIF/bg_banner.gif) no-repeat;
+	width: 800px;
+	height: 146px;
+}
+
+#nav {
+	background: #0A2264;
+	height: 30px;
+	width: 783px;
+	overflow: hidden;
+	margin-left: 8px;
+	color: #FFFFFF;
+}
+
+#nav ul {
+	top: -17px;
+	position: relative;
+	width: 700px;
+	height: 30px;
+}
+
+#nav ul li {
+	display: inline;
+	font: bolder 85% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	position: relative;
+	top: 25px;
+}
+
+#nav ul li a:hover, #nav ul li a:focus {
+	text-decoration: none;
+	background:  url(../images/JPG/rollover_button.jpg);
+	color: #ffffff;
+	font: bolder 100% Arial, Helvetica, sans-serif;
+	height: 30px;
+	top: 1px;
+}
+
+.navText {
+	color: #FFFFFF; 
+	font: bolder 100% Arial, Helvetica, sans-serif;}
+
+.navText a:link {color: #FFFFFF; 
+	text-decoration: none;}
+
+.navText a:visited {color: #FFFFFF; 
+	text-decoration: none; 
+	padding: 10px 5px;}
+
+#content {
+	width: 800px;
+}
+
+.contenText {
+	font: 80% Geneva, Arial, Helvetica, sans-serif;
+	color: #0A2064;
+	background: url(../images/GIF/bg_content.gif) repeat;
+	width: 736px;
+	padding: 10px 34px 10px 30px;
+}
+
+.contenText a:link {
+	color: #0A2264;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: bold;
+	background: #E1F3C9;
+}
+
+.contenText a:visited {
+	color: #848CB5;
+	text-decoration: underline;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#spotlight {
+	position: relative;
+	background: url(../images/GIF/bg_spotlight.gif);
+	padding-left: 30px;
+	padding-right: 250px;
+	width: 520px;
+	padding-bottom: 10px;
+}
+
+.spotlighText {
+	font: 80% Geneva, Arial, Helvetica, sans-serif;
+	color: #0A2064;
+	width: 520px;
+}
+
+.spotlighText a:link {
+	color: #0A2264;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: bold;
+	background: #E1F3C9;
+}
+
+.spotlighText a:visited {
+	color: #848CB5;
+	text-decoration: underline;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#events {
+	width: 210px;
+	left: 540px;
+	text-decoration: none;
+	position: relative;
+	top: -425px;
+}
+
+.evenText {
+	font: 80% Geneva, Arial, Helvetica, sans-serif;
+	color: #0A2064;
+	width: 210px;
+	text-align: center;
+}
+
+.evenText a:link {
+	color: #0A2264;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: bold;
+	background: #E1F3C9;
+}
+
+.evenText a:visited {
+	color: #848CB5;
+	text-decoration: underline;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	background: url(../images/GIF/bg_footer.gif);
+	width: 800px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 0px;
+}
+
+.footer a:link {color: #ffffff; font-weight:bold; text-decoration:none; font-size: 11px; }
+.footer a:visited {color: #ffffff; font-weight: bold; text-decoration:none; font-size: 11px;}
+.footer a:hover {color: #ffffff; font-weight:bold; text-decoration:underline; font-size: 11px;}
+.footer a:strong {color: #ffffff; font-weight:bold; text-decoration:none; font-size: 11px;}
+	
+#credit {
+	width: 780px;
+	background: #E1F3C9;
+	margin: 0px 7px;
+}
+
+.h1 {
+	color: #0A2064;
+	border-bottom: 1px solid #092064;
+	font: bold large Arial, Helvetica, sans-serif;
+	text-align: left;
+	background: #E1F3C9;
+	border-top: 1px solid #092064;
+	padding-left: 5px;
+}
+
+.h2 {
+	color: #0A2064;
+	border-bottom: 1px solid #092064;
+	font: bold large Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.leftimage {
+	float: left;
+	margin-right: 10px;
+	border: #000000;
+	padding-top: 45px;
+	display: none;
+	width: 100px;
+}
+
+.rightimage {
+	float: right;
+	width: 150px;
+	top: 0px;
+}

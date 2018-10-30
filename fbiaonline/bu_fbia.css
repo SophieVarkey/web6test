@@ -1,0 +1,222 @@
+/* CSS Document */
+
+body{
+		margin: 0;
+		padding: 0;
+		background: #E1F3C9;
+}
+
+#wrapper {
+	margin: 0px auto auto;
+	width: 775px;
+}
+
+#banner {
+	background:  url(../images/GIF/bg_banner.gif) no-repeat;
+	width: 800px;
+	height: 146px;
+}
+
+#nav {
+	background: #0a2064;
+	height: 30px;
+	overflow: hidden;
+	margin-left: 8px;
+	width: 783px;
+}
+
+.navText {
+	color: #FFFFFF;
+	font: 80% Arial, Helvetica, sans-serif;
+	padding-top: 6px;
+}
+	.navText a:visited {color: #FFFFFF; font-weight: bold; text-decoration: none;}
+	.navText a:hover {color: #FFFFFF; font-weight: bold; text-decoration:none;}
+	.navText strong {color: #FFFFFF; font-weight: bold; text-decoration: none;}
+	.navText a:link {color: #FFFFFF; font-weight:bold; text-decoration:none;}
+	
+#nav ul {
+
+
+}
+
+#nav ul li {
+	display: inline;
+}
+
+#nav ul li a {
+	padding: 6px 5px 7px;
+	height: 30px;
+
+
+}
+
+#nav ul li a:hover, #nav ul li a:focus {
+	text-decoration: none;
+	font-weight: bolder;
+	background:  url(../images/JPG/rollover_button.jpg) center;
+	color: #ffffff;
+}
+
+#content {
+	background: #E2E6F2 url(../images/GIF/bg_content.gif);
+	width: 800px;
+	top: 0px;
+}
+
+.contentText {
+	color: #0A2064;
+	font: 85% Arial, Helvetica, sans-serif;
+}
+	.contentText a:visited {color: #3B4D83; text-decoration: underline; font-weight: bold; font-size: 85%;}
+	.contentText a:hover {color: #3B4D83; text-decoration:underline; font-size: 85%;}
+	.contentText strong {color: #0A2064; font-weight: bold;}
+	.contentText a:link {color: #0A2064; text-decoration:none; font-weight:bold; font-size: 85%;}
+
+#content h1 {
+	color: #0A2064;
+	border-bottom: 1px solid #092064;
+	font: bolder 100% Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin: 10px 30px;
+}
+
+#content h2 {
+	color: #0A2064;
+	margin: 40px;
+	font: bold 100% Arial, Helvetica, sans-serif;
+}
+
+#content h3 {
+	color: #0A2064;
+	margin: 0px;
+	padding: 0px;
+	font: bold 85% Arial, Helvetica, sans-serif;
+}
+
+#content h4 {
+	color: #0A2064;
+	margin: 0px;
+	padding: 0px;
+	font: bold 85% Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+#spotlight {
+	position: relative;
+	background: url(../images/GIF/bg_spotlight.gif);
+	padding-left: 30px;
+	padding-right: 250px;
+	width: 525px;
+	color: #0A2064;
+	top: -18px;
+}
+		
+.spotlightText {
+	color: #0A2064;
+	font: 85% Arial, Helvetica, sans-serif;
+	margin: 10px 30px;
+	padding: 10px;
+}
+	.spotlightText a:visited {color: #3B4D83; text-decoration: underline; font-weight: bold; font-size: 85%;}
+	.spotlightText a:hover {
+	color: #3B4D83;
+	text-decoration:underline;
+	font-size: 85%;
+	font-weight: bold;
+}
+	.spotlightText strong {color: #0A2064; font-weight: bold;}
+	.spotlightText a:link {color: #0A2064; text-decoration:none; font-weight:bold; font-size: 85%;}
+	
+#spotlight h1 {
+	color: #0A2064;
+	margin: 5px 0px 0px;
+	border-bottom: 1px solid #092064;
+	font: bolder 100% Arial, Helvetica, sans-serif;
+	text-align: left;
+	width: 525px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+#spotlight h2 {
+	color: #0A2064;
+	margin: 0px;
+	padding: 0px;
+	font: bold 90% Arial, Helvetica, sans-serif;
+}
+
+#spotlight h3 {
+	color: #0A2064;
+	margin: 0px;
+	padding: 0px;
+	font: bold 85% Arial, Helvetica, sans-serif;
+}
+
+#events {
+	width: 200px;
+	left: 560px;
+	text-decoration: none;
+	position: absolute;
+	top: 0px;
+}
+
+.eventsText {
+	color: #0a2064;
+	left: 5px;
+	right: 5px;
+	bottom: 10px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	margin: 0px 15px;
+}
+	.eventstext a:link {color: #024f9d; font-size: 12px; text-decoration:none; font-weight:bold;}
+	.eventstext a:visited {color: #3B4D83; font-size: 12px; text-decoration:underline;}
+	.eventstext a:hover {color: #3B4D83; font-size: 12px; text-decoration:underline; font-weight:bold;}
+
+.leftimage {
+	float: left;
+	margin-right: 10px;
+	border: #000000;
+	padding-top: 45px;
+	display: none;
+	width: 100px;
+}
+
+.rightimage {
+	float: right;
+	width: 150px;
+	top: 0px;
+}
+
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	background: url(../images/GIF/bg_footer.gif);
+	width: 800px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 0px;
+}
+	.footer a:link {color: #ffffff; font-weight:bold; text-decoration:none; font-size: 11px; }
+	.footer a:visited {color: #ffffff; font-weight: bold; text-decoration:none; font-size: 11px;}
+	.footer a:hover {color: #ffffff; font-weight:bold; text-decoration:underline; font-size: 11px;}
+	.footer a:strong {color: #ffffff; font-weight:bold; text-decoration:none; font-size: 11px;}
+	
+#credit {
+	width: 780px;
+	background: #E1F3C9;
+	margin: 0px 7px;
+}
+
+.creditText {
+	color: #0a2064;
+	font: bold 10px Arial, Helvetica, sans-serif;
+}
+	.creditText a:visited {color: #0A2064; text-decoration: underline;}
+	.creditText a:hover {color: #0A2064; text-decoration:none;}
+	.creditText strong {color: #0A2064; font-weight: bold;}
+	.creditText a:link {color: #0A2064; text-decoration:none; font-weight:bold}
