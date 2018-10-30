@@ -1,0 +1,284 @@
+body {
+	margin: 0;
+	font: 100.01%/120% Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #D9D9D9;
+	padding: 0;
+}
+
+#outerHeader {
+	margin: 0 auto;
+	background: url(../images/topEdge.jpg) repeat-x;
+}
+
+#header {
+	min-height: 60px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+/********** header navigation *********************/
+
+#header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 75%;
+  float: right;
+ }
+  
+#header li {
+  float: left;		
+  background: url("../images/right.gif") no-repeat bottom right;
+  padding: 0 5px 0 3px;
+  margin: 0 1px;
+}
+  
+#header a {
+	float: left;
+	display: block;
+	background: url("../images/left.gif") no-repeat left bottom;
+	padding: 3px 8px 3px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+	margin-right: 3px;
+}
+  
+/* Commented Backslash Hack
+   hides rule from IE5-Mac \*/
+#header a {
+float: none;
+}
+/* End IE5-Mac hack */
+
+
+#header a:hover, #header a:focus {
+	color: #fff;
+	font-weight: bold;
+}
+  
+#header #current {
+  background-image: url("../images/right_on.gif");
+}
+  
+#header #current a {
+  background-image: url("../images/left_on.gif");
+  color: #fff;
+}
+
+#outerStrap {
+	min-height: 181px;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	background-image: url(../images/strap_img.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+}
+
+#strap {
+	width: 900px;
+	margin: 0 auto;
+	min-height: 181px;
+	background-color: #990B01;
+}
+h4 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+#outerContent {
+	min-height: 300px;
+}
+
+#contentWrapper {
+	width: 900px;
+	padding-top: 1px;
+	margin: 0 auto;
+	font-size: 80%;
+}
+
+#content {
+	width: 540px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 165px;
+}
+#content p {
+	padding-right: 3px;
+	padding-left: 3px;
+	font-size: 95%;
+}
+#content li {
+	font-size: 95%;
+	list-style-type: none;
+	list-style-image: url(../images/bullet.png);
+	list-style-position: outside;
+}
+
+#content a {
+	color: #991000;
+	font-weight: bold;
+	list-style-type: square;
+}
+
+#content img {
+	border: 1px solid #000;
+}
+
+#leftcol {
+	width: 150px;
+	float: left;
+	padding-top: 14px;
+}
+
+/********* Side Navigation ********************/
+
+#leftcol ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#leftcol li {
+	margin-bottom: 1px;
+}
+
+#leftcol li a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	background-color: #990000;
+	padding-top: 1px;
+	padding-right: 3px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+}
+
+#leftcol li a:hover, #leftcol li .here {
+	color: #FFF;
+	background-color: #a68358;
+	font-weight: bold;
+	background-image: url(../images/left-col_arrow.png);
+	background-repeat: no-repeat;
+	background-position: right 5px;
+}
+
+#rightcol {
+	width: 175px;
+	float: right;
+	color: #FFF;
+	margin-top: 16px;
+	font-size: 12px;
+	background-color: #A68358;
+	padding: 5px;
+	border: 5px double #991000;
+}
+
+#rightcol h1 {
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 120%;
+}
+#rightcol a {
+	color: #991000;
+	font-weight: normal;
+}
+
+#footer {
+	clear: both;
+	font-size: 85%;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #970D00;
+}
+
+#footer p {
+	float: right;
+	text-align: right;
+	color: #666;
+	font-size: 90%;
+	line-height: 16px;
+}
+
+#footer a {
+	color: #4682b4;
+}
+
+/********** text elements ******************/
+
+h1, h2, h3 {
+	font-size: 140%;
+	color: #991000;
+	padding-top: 2px;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+h3 {
+	font-size: 120%;
+	margin-bottom: 0;
+	color: #9E0A00;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	width: 98%;
+}
+
+/********** Generic classes **********************/
+
+.right {
+	float: right;
+	margin: 4px 0 2px 5px;
+}
+
+
+	.left {
+		float: left;
+		margin-top: 3px;
+		margin-right: 7px;
+	}
+	
+/************ Column control ****************/
+
+.twocol #rightcol {
+	display: none;
+}
+
+.twocol #content {
+	margin-right: 0;
+	margin-left: 170px;
+	width: auto;
+}
+
+.messageContainer .iacucErrorBox {
+	color:#f00;
+	font-size:0.9em;	
+}
+
+.mandatory{
+	color:#F00; !important;
+}
+
+.wp-caption {
+    background: none repeat scroll 0 0 #f2f2f2;
+    border: 1px solid #ddd;
+    margin-bottom: 14px;
+    padding: 3%;
+    width: 93% !important;
+}
+
+.contact-us-inputs{  
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    width: 30em; /* fallback for the next one, for browsers not recognizing ch */
+    width: 45ch; /* sets the width to 40 times the width of the digit “0” */
+}

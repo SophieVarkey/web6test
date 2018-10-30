@@ -1,0 +1,25 @@
+#header ul {
+	width: 807px;
+	position: absolute;
+	top: 0px;
+	right: 3px;
+	height: 23px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	position: relative;
+}
+
+#strap {
+	height: 184px;
+}
+
+#outerHeader {
+	height: 67px;
+}
+
+.Accordion {
+	width: 175px;
+}

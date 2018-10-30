@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ORC Security Office</title>
+<link href="../css/security.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if LTE IE 6]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+
+
+<script src="../JavascriptFiles/mootools.js" type="text/javascript"></script>
+<script src="../JavascriptFiles/imageMenu.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<link href="../CSSFiles/imageMenu.css" rel="stylesheet" type="text/css" />
+<link href="../css/dt.css" rel="stylesheet" type="text/css" />
+<link href="http://www.research.ucf.edu/css/blackbarnav.css" type="text/css"  rel="stylesheet" />
+<script type="text/javascript">
+function MM_effectHighlight(targetElement, duration, startColor, endColor, restoreColor, toggle)
+{
+	Spry.Effect.DoHighlight(targetElement, {duration: duration, from: startColor, to: endColor, restoreColor: restoreColor, toggle: toggle});
+}
+</script>
+</head>
+
+<div id="navigation" name="navigation">
+  <div id="blkbarnav">
+    <ul>
+      <li class="pad">
+        <a href="http://www.research.ucf.edu/">UCF Research &amp; Commercialization:</a>
+        </li>
+      <li>
+        <a href="http://www.research.ucf.edu/research.html" title="Research">Research</a>
+        </li>
+      <li class="separator">&nbsp;</li>
+      <li>
+        <a href="http://www.research.ucf.edu/commercialization.html" title="Commercialization">Commercialization</a>
+  </li>
+      <li class="separator">&nbsp;</li>
+      <li >
+        <a href="http://www.research.ucf.edu/compliance.html" title="Ethics &amp; Compliance">Ethics &amp; Compliance</a>
+        </li>
+      <li class="separator">&nbsp;</li>
+      <li>
+        <a href="http://www.research.ucf.edu/centers.html" title="Centers &amp; Institutes">Centers &amp; Institutes</a>
+        </li>
+      <li class="separator">&nbsp;</li>
+      <li>
+        <a href="http://www.research.ucf.edu/funding_assistance.html" title="Proposal Funding &amp; Assistance">Research Development</a>
+        </li>
+      <li class="separator">&nbsp;</li>
+      <li>
+        <a href="http://www.research.ucf.edu/foundation.html" title="Research Foundation">Research Foundation</a>
+        </li>
+      </ul>
+    </div>
+  
+</div>
+
+<body class="twocol">
+<div id="outerHeader">
+<div id="header">
+<ul>
+<li id="current"><a href="#">Home</a></li>
+<li><a href="../personnel.html">Personnel Security</a></li>
+<li><a href="../briefings.html">Briefings &amp; Education</a></li>
+<li><a href="../ci.html">Counterintelligence</a></li>
+<li><a href="../forms.html">Forms</a></li>
+<li><a href="../news.html">News &amp; Events</a></li>
+<li><a href="../contact.html">Contact</a></li>
+</ul>
+<!-- close header -->
+</div>
+<!-- close outerHeader -->
+</div>
+<div id="outerStrap">
+<div id="strap">
+
+<script type="text/javascript">
+// BeginWebWidget phatfusion_imageMenu: pf_imageMenu1
+
+      window.addEvent('domready', function(){
+      	var myMenu = new ImageMenu("pf_imageMenu1",$$('.imageMenu a'),{openWidth:310, border:2});
+		});
+      
+
+// EndWebWidget phatfusion_imageMenu: pf_imageMenu1
+</script>
+<!-- close strap --><img src="../images/strap2016.jpg" alt="Office of Facility Security" width="900" height="185" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="711,146,798,183" href="vr.html" alt="Visit Request" />
+  <area shape="rect" coords="810,146,893,183" href="../Documents/ClearedEmployeeRequestForForeignTravel.pdf" target="_blank" alt="Cleared Employee Request for Foreign Travel" />
+</map>
+</div>
+<!-- close outerStrap -->
+</div>
+<div id="outerContent">
+<div id="contentWrapper">
+<div id="rightcol">
+
+</div>
+<div id="leftcol">
+<ul>
+<li><a href="#" class="here">Visit Request</a></li
+>
+<li><a href="../visit_request_form.html"> Visit Request Form</a></li
+><li><a href="../index.html">Home</a></li
+></ul>
+</div><!-- close leftcol --><!-- TemplateBeginEditable name="Content" -->
+<div id="content" onclick="MM_effectHighlight('content', 1000, '#ffffff', '#ff0000', '#ffffff', false)">
+  <h1>&nbsp;</h1>
+</div>
+<!-- TemplateEndEditable -->
+<div id="footer">
+  <p>Office of Research &amp; Commercialization | Facility Security<br />
+  12201 Research Parkway Suite 501<br />
+Orlando, FL 32826</p>
+
+<!-- close footer -->
+</div>
+<!-- close contentWrapper -->
+</div>
+<!-- close outerContent -->
+</div>
+</body>
+</html>
